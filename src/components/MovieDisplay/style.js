@@ -1,6 +1,18 @@
 import styled from "styled-components";
 
+export const Details = styled.div`
+  display: none;
+  position: absolute;
+  bottom: 0;
+  box-sizing: border-box;
+  z-index: 1;
+  background-color: white;
+  width: 300px;
+  opacity: 90%;
+`;
+
 export const Card = styled.div`
+  position: relative;
   background-color: #373b69;
   box-sizing: border-box;
   width: 300px;
@@ -8,6 +20,10 @@ export const Card = styled.div`
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   border-radius: 3px;
+
+  &:hover ${Details} {
+    display: block;
+  }
 `;
 
 export const Img = styled.img`
@@ -26,22 +42,8 @@ export const InfoDisplay = styled.div`
 
 export const Score = styled.span`
   background-color: #22254b;
-  color: orange;
+  color: ${(props) => props.color};
   padding: 0.25rem 0.5rem;
   border-radius: 3px;
   font-weight: bold;
-`;
-
-export const Details = styled.div`
-display: none;
-  position: absolute;
-  bottom: 50;
-  box-sizing: border-box;
-  z-index: 1;
-  background-color: white;
-  width: 300px;
-
-  &:hover {
-    display: block;
-  }
 `;

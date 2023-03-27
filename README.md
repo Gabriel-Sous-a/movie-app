@@ -1,49 +1,70 @@
-# Build a Movie App using IMDB's API
+# Getting Started with Create React App
 
-<img width="1769" alt="Screenshot 2023-03-12 at 12 44 09" src="https://user-images.githubusercontent.com/8272736/224546414-48f6f9f5-6c59-44ea-9615-f4bed0ba5fb7.png">
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-[Live version](https://50projects50days.com/projects/movie-app/).
+## Available Scripts
 
-## Features:
+In the project directory, you can run:
 
-- List top 250 movies;
-- Show a card with name, year and crew (on hover), image and score (rounded up);
-- Search form.
+### `npm start`
 
-### Nice to have:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- Language selector with: EN, PT and ES as options;
-- Button to list Box Office Movies.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Must have:
-- React Context to store the movie list;
-- On submitting search form: filter by name;
-- On submitting empty search form: show all movies.
+### `npm test`
 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## IMDB API Tutorial
-- [Go to](https://imdb-api.com/).
-- Register
+### `npm run build`
 
-![Screenshot 2023-03-12 at 13 02 30](https://user-images.githubusercontent.com/8272736/224546426-656483e2-2217-4702-a01b-ad00a15f8642.png)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-![Screenshot 2023-03-12 at 13 04 20](https://user-images.githubusercontent.com/8272736/224546487-9d1a0c03-6eb9-4838-9696-9e320f92aa0c.png)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- Confirm your email
-- [Go to](https://imdb-api.com/api).
-- Your API Key will show up as below:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-![Screenshot 2023-03-12 at 13 06 35](https://user-images.githubusercontent.com/8272736/224546604-c98fad81-243c-4c96-8d44-e643571725bf.png)
+### `npm run eject`
 
-### Top 250 Movies endpoint
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-![Screenshot 2023-03-12 at 13 13 44](https://user-images.githubusercontent.com/8272736/224546978-95e5a2b3-d66c-4b75-acf5-72ffb88f7aef.png)
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### Box Office endpoint
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-![Screenshot 2023-03-12 at 13 15 15](https://user-images.githubusercontent.com/8272736/224547045-034118ed-73a6-4955-b032-a84a1e07e881.png)
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-### Code Snippet in the bottom of the page
+## Learn More
 
-![Screenshot 2023-03-12 at 13 16 35](https://user-images.githubusercontent.com/8272736/224547094-25d21df3-2b75-47d7-a7af-2148188b3f50.png)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

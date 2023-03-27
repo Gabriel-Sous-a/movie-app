@@ -4,11 +4,11 @@ import MovieDisplay from "../MovieDisplay";
 import { Movies } from "./style";
 
 export default function MovieContainer() {
-  const { movieList } = useContext(MovieContext);
+  const { displayedMovieList } = useContext(MovieContext);
 
   return (
     <Movies>
-      {movieList.map((movie) => (
+      {displayedMovieList.map((movie) => (
         <MovieDisplay
           name={movie.title}
           img={movie.image}
